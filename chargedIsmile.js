@@ -52,6 +52,7 @@ function returnSalesOrder(id){
       var startindex = (page-1)*21;
       var lastindex = (page*21)-1;
       var count = 0 ;
+      ////hi
     
       var ismileRef= search.createColumn({ name: 'custbody_dt_ismile_case_ref_no', join: 'createdFrom', sort: search.Sort.ASC });
     var addCasesList = search.create({
