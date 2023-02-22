@@ -20,6 +20,7 @@
 function returnSalesOrder(id){
   if (parseInt(id)>0) {
     var order =  record.load({ type: "salesorder",id: id,isDynamic: true});
+   // change
    // var patient = order.getValue({ fieldId: "custbody_dt_patient_name"})
     var orderType=order.getValue({fieldId: "custbody_dt_ismile_type"})
     //var archType=order.getValue({fieldId: "custbody_dt_arch_of_interest"})
